@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames</title>
+
+    <!--  Note: we should not write frames in body tags-->
+</head>
+    <!-- HTML frames are used to divide your browser window into multiple sections
+        where each section can load a separate HTML document.
+        A collection of frames in the browser window is known as a frameset. 
+        The window is divided into frames in a similar way the tables are organized:
+         into rows and columns. -->
+    <frameset rows = "25%,75%"> <!-- total web page is divided into two parts-->
+        <frame src = "list.html" ></frame>> <!-- first part (25%)-->
+        <frameset cols = "50%,50%"> <!-- second part is divided to again two parts -->
+            <frame src = "tablepractice.html"></frame> <!-- first part of second --> 
+            <frame src = "table.html"></frame> <!-- second of second-->
+            <!--  closing for frame tag is not mandatory-->
+        </frameset>
+    </frameset>
+</html>
